@@ -15,7 +15,7 @@ import {
   rcCliSetupConfig,
 } from '../utils/clack-utils';
 import { hasPackageInstalled } from '../utils/package-json';
-import { WizardOptions } from '../utils/types';
+import type { WizardOptions } from '../utils/types';
 import {
   initializeSentryOnEntryClient,
   instrumentSentryOnEntryServer,
