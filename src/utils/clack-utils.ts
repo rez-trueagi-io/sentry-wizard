@@ -792,8 +792,6 @@ export async function getOrAskForProjectData(
   authToken: string;
 }> {
   if (options.preSelectedProject) {
-    console.debug('preSelectedProject', options.preSelectedProject);
-
     return {
       selfHosted: options.preSelectedProject.selfHosted,
       sentryUrl: options.url ?? SAAS_URL,
