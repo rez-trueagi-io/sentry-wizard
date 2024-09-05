@@ -165,7 +165,7 @@ export async function run(argv: Args) {
       break;
 
     default:
-      clack.log.error(`No setup wizard selected!`);
+      clack.log.error('No setup wizard selected!');
   }
 }
 
